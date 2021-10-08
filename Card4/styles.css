@@ -1,114 +1,87 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap');
-
-
-*{
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;800&display=swap');
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
 }
 
-body{
-    background: #5886e5;
-    min-height: 100vh;
+body {
     display: flex;
     justify-content: center;
     align-items: center;
-    font-family: 'Montserrat' sans-serif;
+    min-height: 100vh;
+    background: linear-gradient(#0f4675, #0f4675 50%, #fff 50%, #fff 100%);
 }
 
-.card{
-    width: 400px;
-    overflow: hidden;
-    background: #fff;
-    box-shadow:  0 20px 30px rgba(0, 0, 0, .1);
+.container {
+    width: 1100px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
 }
 
-.card .card-header{
-    height: 150px;
+.container .box {
     position: relative;
+    width: 320px;
+    background: #fff;
+    padding: 100px 40px 60px;
+    box-shadow: 0 15px 45px rgba(0, 0, 0, .1);
 }
 
-.card .card-header .waves-container{
+.container .box::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
     height: 100%;
+    background: #ff226d;
+    transform: scaleY(0);
+    transform-origin: top;
+    transition: transform .5s;
 }
 
-.card .card-header .waves-container .wave{
+.container .box:hover:before {
+    transform: scaleY(1);
+    transform-origin: bottom;
+    transition: transform .5s;
+}
+
+.container .box h2 {
     position: absolute;
-    width: 650px;
-    height: 650px;
-    background-image: linear-gradient(to bottom left, #8aafff, #5BB6E5);
-    transform: translateX(-50%);
+    left: 40px;
+    top: 60px;
+    font-size: 4rem;
+    font-weight: 800;
+    z-index: 1;
+    opacity: .1;
+    transition: .5s;
 }
 
-.card .card-header .waves-container .wave1{
-    border-radius: 50%;
-    top: -330%;
-    left: 50%;
-    animation: spin 12s linear infinite;
-}
-
-.card .card-header .waves-container .wave2{
-    border-radius: 46%;
-    top: -332%;
-    left: 48%;
-    opacity: .5;
-    animation: spin 16s linear infinite;
-}
-
-.card .card-header .waves-container .wave3{
-    border-radius: 40%;
-    top: -328%;
-    left: 52%;
-    opacity: .2;
-    animation: spin 16s linear infinite;
-}
-
-@keyframes spin{
-    to{
-        transform: translateX(-50%) rotate(360deg);
-    }
-}
-
-.card .card-header .profile-img{
-    margin: 0 auto;
-    width: 150px;
-    height: 150px;
-    border-radius: 50%;
-    position: absolute;
-    left: 50%;
-    transform: translate(-50%,-50%);
-    object-fit: cover;
-}
-
-
-
-.card .card-body{
-    margin-top: 100px;
-    text-align: center;
-    padding: 0 20px;
-}
-
-.card .card-body h2{
-    text-transform: capitalize;
-    color: rgb(82, 82, 82);
-}
-
-.card .card-body p{
-    font-size: 14px;
-    line-height: 1.8;
-    color: rgba(82, 82, 82, .6);
-    margin: 20px 0;
-}
-
-.card .card-body .btn{
-    display: inline-block;
-    text-decoration: none;
-    padding: 15px 45px;
+.container .box:hover h2 {
+    opacity: 1;
     color: #fff;
-    background: #5BB6E5;
-    border-radius: 100px;
-    text-transform: uppercase;
-    margin: 20px 0 40px;
-    font-weight: 600;
-    letter-spacing: 1px;
+    transform: translateY(-40px);
+}
+
+.container .box h3 {
+    position: relative;
+    font-size: 1.5em;
+    z-index: 2;
+    color: #333;
+    transition: .5s;
+}
+
+.container .box p {
+    position: relative;
+    z-index: 2;
+    color: #555;
+    transition: .5s;
+    font-size: 1em;
+}
+
+.container .box:hover h3,
+.container .box:hover p {
+    color: #fff;
 }
