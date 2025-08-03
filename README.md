@@ -41,7 +41,7 @@ Perfect for portfolios, product displays, testimonials, and more.
 
 ---
 #### 🔳 Card 8 🔳 Card 9
-![Card8](https://github.com/user-attachments/assets/3eeabbf3-b0cc-4206-b861-068e21875fc8) &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ![Card9](https://github.com/user-attachments/assets/3a348264-04a1-4adc-a747-c30b534277b2)
+![Card8](https://github.com/user-attachments/assets/3eeabbf3-b0cc-4206-b861-068e21875fc8) &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ![Card9](https://github.com/user-attachments/assets/3a348264-04a1-4adc-a747-c30b534277b2)
 
 ---
 
