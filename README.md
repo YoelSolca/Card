@@ -7,7 +7,7 @@ Perfect for portfolios, product displays, testimonials, and more.
 ## ✨ Card Showcase
 
 #### 🔳 Card 1 & Card 2  
-![Card1](https://github.com/user-attachments/assets/ae263075-0689-403f-a7fd-1f90722c0161) &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ![Card2](https://github.com/user-attachments/assets/5211e8ce-ba3c-4de9-a526-71a84a6803bb)  
+![Card1](https://github.com/user-attachments/assets/ae263075-0689-403f-a7fd-1f90722c0161) &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ![Card2](https://github.com/user-attachments/assets/5211e8ce-ba3c-4de9-a526-71a84a6803bb)  
 
 ---
 
